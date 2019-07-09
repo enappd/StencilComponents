@@ -1,0 +1,14 @@
+.my-footer{
+        width: 100vw;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 42px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: black;
+        color: white;
+        font-family: cursive;
+}

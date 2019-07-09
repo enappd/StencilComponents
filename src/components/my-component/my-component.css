@@ -1,0 +1,36 @@
+.modal-div{
+    border: 1px solid;
+    box-shadow: 1px 1px 1px #ccc;
+    background-color: white;
+    z-index: 1000;
+    top:30%;
+    width: 350px;
+    position: fixed;
+    left: calc(50% - 175px);
+    text-align: center;
+    font-size: 2em;
+    }
+.backdrop-div{
+    min-height: 100%;
+    min-width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.modal-header{
+    margin: 32px 0px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+    padding-bottom: 32px;
+}
+
+.close-button{
+    position: absolute;
+    font-size: 14px;
+    color: blue;
+    border: 1px solid;
+    padding: 2px;
+    top: 10px;
+    right: 10px;
+}
